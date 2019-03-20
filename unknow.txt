@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>design by devbanban.com </title>
+ 
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <br><br><br>
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+        <form action="http://devbanban.com/" method="POST"   name="add" class="form-horizontal" id="add">
+       <div class="form-group">
+       <div class="col-sm-2" align="right"></div>
+        <div class="col-sm-5" align="left"><b> :: เพิ่มข้อมูลสมาชิก :: </b></div>
+      </div>
+       <div class="form-group">
+        <div class="col-sm-2" align="right"> Username  </div>
+          <div class="col-sm-4" align="left">
+            <input  name="m_user" type="text" required class="form-control"  placeholder="username" pattern="^[a-zA-Z0-9]+$" title="ภาษาอังกฤษหรือตัวเลขเท่านั้น" minlength="2" />
+          </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-2" align="right"> Password  </div>
+          <div class="col-sm-4" align="left">
+            <input  name="m_pass" type="password" required class="form-control"   placeholder="password" pattern="^[a-zA-Z0-9]+$" title="ภาษาอังกฤษหรือตัวเลขเท่านั้น" minlength="2"/>
+          </div>
+      </div>
+       <div class="form-group">
+        <div class="col-sm-2" align="right"> ชื่อ  </div>
+          <div class="col-sm-5" align="left">
+            <input  name="m_name" type="text" required class="form-control"  />
+          </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="col-sm-2" align="right"> อีเมล์  </div>
+          <div class="col-sm-5" align="left">
+            <input  name="m_email" type="email"  class="form-control" />
+          </div>
+      </div>
+      
+            <div class="form-group">
+        <div class="col-sm-2" align="right"> เบอร์โทร  </div>
+          <div class="col-sm-5" align="left">
+            <input  name="m_phone" type="text" required class="form-control" />
+          </div>
+      </div>
+     
+        
+      <div class="form-group">
+      <div class="col-sm-2"> </div>
+          <div class="col-sm-6">
+          <button type="submit" class="btn btn-primary" id="btn">  เพิ่มข้อมูล
+           </button>
+          <input name="m_level" type="hidden"  value="m" />
+          </div>
+           
+          </div>
+          </form>
+        </div>
+ 
+      </div>
+    </div>
+ 
+  </body>
+</html>
